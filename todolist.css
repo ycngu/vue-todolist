@@ -1,0 +1,38 @@
+* {
+	font-size: 17px;
+}
+
+.list-cell {
+	list-style-type: none;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+.bg-gray{
+	background-color:#A0A0A0;
+}
+
+.bg-o{
+	background-color:#5EC4CD;
+}
+.bg-g{
+	margin-left:1px;
+	background-color:#81F13C;
+}
+
+.center{
+	text-align: center;
+}
+
+.isFinished-title {
+	margin-left: 5px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.count {
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
