@@ -2,6 +2,17 @@
 	font-size: 17px;
 }
 
+@media screen and (max-width:415px) {
+	* {
+		font-size: 14px;
+	}
+
+	#id-input-todo {
+		display: inline-block !important;
+		width:80% !important;
+	}
+}
+
 .list-cell {
 	list-style-type: none;
 }
@@ -10,19 +21,20 @@
 	text-decoration: line-through;
 }
 
-.bg-gray{
-	background-color:#A0A0A0;
+.bg-gray {
+	background-color: #A0A0A0;
 }
 
-.bg-o{
-	background-color:#5EC4CD;
-}
-.bg-g{
-	margin-left:1px;
-	background-color:#81F13C;
+.bg-o {
+	background-color: #5EC4CD;
 }
 
-.center{
+.bg-g {
+	margin-left: 1px;
+	background-color: #81F13C;
+}
+
+.center {
 	text-align: center;
 }
 
